@@ -13,5 +13,6 @@ services:
           property: connectionString
 databases:
   - name: elephant
+    region: frankfurt
     databaseName: metabasedb
     ipAllowList: [] # only allow internal connections
